@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <nav class="mobile-menu">
+    <label for="show-menu" class="show-menu"
+      ><span>Menu</span>
+      <div class="lines"></div
+    ></label>
+    <input type="checkbox" id="show-menu" />
+    <ul id="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog </a></li>
+      <li><a href="login.html">Admin</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <br /><br /><br /><br /><br /><br />
+  <body>
+    <section class="newsletter">
+      <div class="wrapper">
+        <p>Login for Admin</p>
+        <form id="register" onsubmit="event.preventDefault(); admin()">
+          <input
+            type="text"
+            name="uname"
+            id=""
+            class="email_field"
+            placeholder="name"
+          />
+          <input
+            type="text"
+            name="passw"
+            id=""
+            class="name_field"
+            placeholder="email"
+          />
+          <button type="submit" id="" class="submit_nl" value="Subscribe">
+            login
+          </button>
+        </form>
+      </div>
+    </section>
+    <script src="./js/admin.js"></script>
+  </body>
+</html>

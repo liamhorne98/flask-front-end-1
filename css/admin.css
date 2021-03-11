@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+td,
+th,
+table {
+  border: 2px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+.admin-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+td,
+th {
+  color: white;
+}
+
+.datat input {
+  width: 100%;
+  padding: 1em;
+  color: white;
+  border: solid 1px rgb(31, 29, 27);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="text"] {
+  background-color: rgb(3, 3, 3);
+}
+.datat button {
+  padding: 10px;
+  width: 100%;
+}
+/* .contact form textarea {
+    resize: none;
+  } */
+.acc-table {
+  width: 100%;
+}
